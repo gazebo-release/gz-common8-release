@@ -12,18 +12,18 @@ override_dh_install:
 	install ./obj-*/*.tag.xml debian/tmp/usr/share/gz/gz-common/
 	dh_install --
 	# need to remove files present in components
-	$(RM) debian/libgz-common7-core-dev/usr/include/gz/common*/ignition/common/av.hh
-	$(RM) debian/libgz-common7-core-dev/usr/include/gz/common*/ignition/common/events.hh
-	$(RM) debian/libgz-common7-core-dev/usr/include/gz/common*/ignition/common/geospatial.hh
-	$(RM) debian/libgz-common7-core-dev/usr/include/gz/common*/ignition/common/graphics.hh
-	$(RM) debian/libgz-common7-core-dev/usr/include/gz/common*/ignition/common/io.hh
-	$(RM) debian/libgz-common7-core-dev/usr/include/gz/common*/ignition/common/testing.hh
-	$(RM) debian/libgz-common7-core-dev/usr/include/gz/common*/gz/common/av.hh
-	$(RM) debian/libgz-common7-core-dev/usr/include/gz/common*/gz/common/events.hh
-	$(RM) debian/libgz-common7-core-dev/usr/include/gz/common*/gz/common/geospatial.hh
-	$(RM) debian/libgz-common7-core-dev/usr/include/gz/common*/gz/common/graphics.hh
-	$(RM) debian/libgz-common7-core-dev/usr/include/gz/common*/gz/common/io.hh
-	$(RM) debian/libgz-common7-core-dev/usr/include/gz/common*/gz/common/testing.hh
+	$(RM) debian/libgz-common8-core-dev/usr/include/gz/common*/ignition/common/av.hh
+	$(RM) debian/libgz-common8-core-dev/usr/include/gz/common*/ignition/common/events.hh
+	$(RM) debian/libgz-common8-core-dev/usr/include/gz/common*/ignition/common/geospatial.hh
+	$(RM) debian/libgz-common8-core-dev/usr/include/gz/common*/ignition/common/graphics.hh
+	$(RM) debian/libgz-common8-core-dev/usr/include/gz/common*/ignition/common/io.hh
+	$(RM) debian/libgz-common8-core-dev/usr/include/gz/common*/ignition/common/testing.hh
+	$(RM) debian/libgz-common8-core-dev/usr/include/gz/common*/gz/common/av.hh
+	$(RM) debian/libgz-common8-core-dev/usr/include/gz/common*/gz/common/events.hh
+	$(RM) debian/libgz-common8-core-dev/usr/include/gz/common*/gz/common/geospatial.hh
+	$(RM) debian/libgz-common8-core-dev/usr/include/gz/common*/gz/common/graphics.hh
+	$(RM) debian/libgz-common8-core-dev/usr/include/gz/common*/gz/common/io.hh
+	$(RM) debian/libgz-common8-core-dev/usr/include/gz/common*/gz/common/testing.hh
 
 # test cannot run in parallel
 override_dh_auto_test:

@@ -1,17 +1,6 @@
-gz-common7 (7.0.0-1~noble) noble; urgency=medium
+gz-common8 (7.999.999-1~noble) noble; urgency=medium
 
-  * gz-common7 7.0.0-1 release
+  * Stub to be removed after first entry
 
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Fri, 26 Sep 2025 16:01:50 -0500
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Sat, 03 Jan 2026 00:12:02 +0000
 
-gz-common7 (7.0.0~pre2-1~noble) noble; urgency=medium
-
-  * gz-common7 7.0.0~pre2-1 release
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Tue, 23 Sep 2025 11:41:26 -0500
-
-gz-common7 (7.0.0~pre1-1~noble) noble; urgency=medium
-
-  * gz-common7 7.0.0~pre1-1 release
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Fri, 22 Aug 2025 23:25:56 -0500
