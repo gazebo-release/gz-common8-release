@@ -1,7 +1,5 @@
-gz-common8 (7.999.999-1~resolute) resolute; urgency=medium
+gz-common8 (8.0.0~pre1-1~resolute) resolute; urgency=medium
 
-  * Stub to be removed after first entry
+  * gz-common8 8.0.0~pre1-1 release
 
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Sat, 03 Jan 2026 00:12:02 +0000
-
-
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Thu, 20 Aug 2026 01:31:02 +0000
